@@ -20,10 +20,12 @@ In the way of learning about Internet Computer Protocol and Motoko, I decided to
 
 For example, for a net income of 60,000 MXN, the calculations will be like this:
 
-**Tax = (60,000 - 55640.06) * 0.16 + 4468.15**
-**Tax = 4,359.94 * 0.16 + 4468.15**
-**Tax = 697.5904 + 4468.15**
-**Tax = 5,165.7404**
+- **Tax = (60,000 - 55640.06) * 0.16 + 4468.15**
+- **Tax = 4,359.94 * 0.16 + 4468.15**
+- **Tax = 697.5904 + 4468.15**
+- **Tax = 5,165.7404**
+
+![](example.jpg)
 
 ## Usage
 This application provides the following methods:
