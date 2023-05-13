@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "tax_backend": {
+      "main": "src/tax_backend/main.mo",
+      "type": "motoko"
+    },
+    "tax_frontend": {
+      "dependencies": [
+        "tax_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/tax_frontend/src/index.html"
+      },
+      "source": [
+        "src/tax_frontend/assets",
+        "dist/tax_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
